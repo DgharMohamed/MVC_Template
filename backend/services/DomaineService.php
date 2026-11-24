@@ -3,8 +3,9 @@
 require_once dirname(__DIR__) . '/services/BaseService.php';
 require_once dirname(__DIR__) . '/models/Domaine.php';
 
-class DomaineService extends BaseService
+class DomaineService extends BaseService 
 {
+    // instead $domaine name it $model 
     private Domaine $domaine;
 
     public function __construct()
